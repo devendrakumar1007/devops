@@ -29,9 +29,9 @@ pipeline {
 	    	steps {
 				print "Deployment is done!"
 //				sh 'sshpass -p "gamut" scp target/gamutkart.war gamut@172.17.0.3:/home/gamut/distros/apache-tomcat-9.0.31/webapps'
-//				sh 'sshpass -p "gamut" ssh -o StrictHostKeyChecking=no gamut@172.17.0.3 "JAVA_HOME=/home/gamut/builds/jdk8" "/home/gamut/distros/apache-tomcat-9.0.31/bin/startup.sh"	
-"
-"'
+//				sh 'sshpass -p "gamut" ssh -o StrictHostKeyChecking=no gamut@172.17.0.3 "JAVA_HOME=/home/gamut/builds/jdk8" "/home/gamut/distros/apache-tomcat-9.0.31/bin/startup.sh"'	
+
+
 	    	}
 		}
     }
